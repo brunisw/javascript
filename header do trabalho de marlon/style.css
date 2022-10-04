@@ -10,17 +10,47 @@
 }
 
 body {
-    background-color: #C5A8DC;
+    background-color: #e0b1cb;
 }
 
 h1{
-    font-size: 60px;
-    color: #E174CB;
+    font-size: 75px;
+    color: #e0b1cb;
     font-family: Tropical Country;
-    box-shadow: 0px 10px #E174CB;
+    box-shadow: 0px 10px #be95c4;
     text-shadow: 1px 1px 4px #170829;
 }
 
 header {
-background-color: #7D7DB4;
+background-color: #5e548e;
+}
+
+h2{
+    font-size: 15px;
+    color: #5e548e;
+    
+}
+
+h3{
+    color: #5e548e;
+}
+#nav-content{
+
+    font-size: 15px;
+    height: 20px;
+    color: #5e548e;
+    display: inline-block;
+}
+
+
+div{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.conteiner{
+    display: inline-flex;
+}
+.flex-container{
+    flex-direction: row-reverse;
 }
