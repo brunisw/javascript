@@ -1,0 +1,27 @@
+body{
+    background-color: #ffe5d9;
+}
+
+h1{
+    color: #f4acb7;
+    text-shadow: 0px 1px #9d8189;
+    box-shadow: 6px 6px 10px #ffcad4;
+}
+
+h2{
+    font-size: 15px;
+    color: #9d8189;
+    text-shadow: #f4acb7;
+}
+
+h3{
+    font-size: 15px;
+    color: #9d8189;
+    text-shadow: #f4acb7;
+}
+
+label{
+    color: #9d8189;
+    font-size: 15px;
+    text-shadow: #f4acb7;
+}
