@@ -1,0 +1,87 @@
+'Funções no script'                         'aula 21/10/2022'
+
+
+1)
+function imprimir(){
+    document.write();
+}
+imprimr();
+--------------------------------------
+2)
+function imprimir(texto){
+    document.write(texto);
+}
+imprimir("escrever");              
+--------------------------------------
+3)
+function imprime(texto){
+    document.write(texto);
+}
+let frase = prompt(); frase2 = prompt();
+imprime(frase);
+imprime(frase2);
+--------------------------------------
+4)
+function soma(x,y){
+    alert(x,y);
+}
+let a = 10, b = 40;
+soma(a,b);
+--------------------------------------
+'->Funções com e sem parâmetros de entrada'
+'->Funções com retorno'
+    function soma(a,b){
+        return a+b;
+    }
+    let x=10, y=30, resultado
+    resultado=soma(x,y);     
+    alert(resultado);
+
+    /*document.write(soma(x,y));*/
+--------------------------------------
+    "Tipos de string"
+° string
+° number
+° undefined
+° boolean
+° object
+° function
+    
+    "Hoisting"
+--------------------------------------
+        "Arrow function!"
+    funcão anônima
+        function(){
+
+        }     
+--------------------------------------   
+    let a = () => { 
+                alert ('oi');
+            }
+    
+    a ();     
+--------------------------------------
+    setTimeOut(callback,tempo e ms)
+    setInterval(,)
+    
+    () => {
+                x = {
+                    console.log('oi');
+                }
+            }
+            
+            /*x => console.log('oi')*/
+--------------------------------------
+            
+    function divide (x,y){
+        if(y==0){
+        alert('inválido');
+        y = Number(prompt('novo y'));
+        }
+        alert(x/y);
+    }   
+    
+--------------------------------------
+    
+    let a = Number(prompt('digite a')),b = Number(prompt());
+    divide_e_imprime(a,b);
