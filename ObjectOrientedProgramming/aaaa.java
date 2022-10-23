@@ -1,6 +1,6 @@
-package forma_geometrica;
 
-public class Objetos_geometricos{
+
+public class aaaa{
     //Atributos
     //1 - Modificador de acesso, 2 - Tipo, 3 - Nome
     public double altura, comprimento;
