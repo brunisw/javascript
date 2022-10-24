@@ -7,11 +7,11 @@ public class Question01 {
     public static void main(String[] args) throws Exception{
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite o primeiro numero: ");
-        int num1 = sc.nextInt();
+        int numero1 = sc.nextInt();
         System.out.print("Digite o segundo numero: ");
-        int num2 = sc.nextInt();
+        int numero2 = sc.nextInt();
 
-        mediaNumeros(num1, num2);
+        mediaNumeros(numero1, numero2);
 
         sc.close();
     }
