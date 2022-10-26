@@ -9,7 +9,7 @@ public class Question04 {
         if(numDeBusca == voto.exibirNumVoto()){
             voto.contarVoto();
         }else{
-            System.out.println("nome não encontrado");
+            System.out.println("Nome não encontrado");
         }
         System.out.printf("O candidato %s de número %d tem um total de %d voto(s)\n",voto.exibirNomeCandidato(), voto.exibirNumVoto(), voto.exibirCountVotos());
     }
